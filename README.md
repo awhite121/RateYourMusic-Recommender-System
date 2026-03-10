@@ -100,9 +100,10 @@ Reviews are aggregated at the **album level** to form a crowd-sourced descriptio
 ## Repository Structure
 
 ```
-├── recommender.ipynb           # Full pipeline: scraping, NLP, TF-IDF, embeddings, recommendations
-├── data/                       # (Add your scraped data here)
-│   └── rym_reviews.csv
+├── RateyourMusic_Recommender.ipynb
+├── RateyourMusic_Webscraper.ipynb           
+├── data/                
+│   └── rym_reviews_FINAL.csv
 ├── README.md
 └── .gitignore
 ```
